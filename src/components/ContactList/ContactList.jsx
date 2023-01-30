@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Contact from 'components/Contact/Contact';
 import { List } from './ContactList.styled';
 const ContactList = ({ contacts, onClick }) => {
-  console.log(contacts);
   return (
     <List>
       {contacts.map(contact => (
